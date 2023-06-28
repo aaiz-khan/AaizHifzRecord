@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         homeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Home_Page.class);
+                Intent intent = new Intent(MainActivity.this, com.example.hifzrecord.HomePage.class);
                 startActivity(intent);
             }
         });
