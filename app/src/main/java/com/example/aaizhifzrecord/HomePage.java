@@ -1,4 +1,4 @@
-package com.example.hifzrecord;
+package com.example.aaizhifzrecord.;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -40,7 +40,7 @@ public class HomePage extends AppCompatActivity {
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(HomePage.this, UpdateSabaq.class);
+                Intent intent = new Intent(HomePage.this, UpdateStudent.class);
                 startActivity(intent);
             }
         });
